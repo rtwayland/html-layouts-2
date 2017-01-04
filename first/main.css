@@ -1,0 +1,62 @@
+.top-boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-boxes div {
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+}
+
+.red {
+    background-color: rgb(195, 0, 22);
+}
+
+.blue {
+    background-color: rgb(59, 122, 219);
+}
+
+.dark-grey {
+    background-color: rgb(58, 58, 58);
+}
+
+.middle-boxes {
+    overflow: auto;
+}
+
+.middle-boxes div {
+    height: 400px;
+    float: left;
+}
+
+.middle-boxes div:nth-child(1) {
+    width: 30%;
+}
+
+.middle-boxes div:nth-child(2) {
+    width: 70%;
+}
+
+.bottom-boxes {
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.bottom-boxes div {
+    height: 200px;
+    float: left;
+}
+
+.bottom-boxes div:first-child {
+    width: 80%;
+}
+
+.bottom-boxes .red {
+    width: 5%;
+}
+
+.bottom-boxes .dark-grey {
+    width: 10%;
+}
